@@ -36,9 +36,8 @@
      font-weight: 600;
      border-radius: 8px;
      border: none;
-
-
 }
+
 main{
      max-width: 1440px;
      margin: 0 auto;
@@ -213,6 +212,17 @@ main > section{
 
 }
 
+.footer-container{
+     max-width: 1440px;
+     margin: 8.12rem 15rem 13.5rem;
+     text-align: center;
+     background-color: #FFF4E7;
+     padding: 2.43rem 2.37rem;
+     font-size: 1.25rem;
+
+     
+}
+
 
 
 
@@ -261,7 +271,22 @@ main > section{
      margin-left: 20px;
 }
 
+.footer-container{
+     
+     display: inline;
+
+     
+
+     
+     
+
 }
+     
+   
+
+}
+
+
 
  
 /* medium size device */
@@ -272,9 +297,6 @@ main > section{
      .teams, .navbar, .features{
           flex-direction: column;
      }
-
-
-
      .our-features{
           margin: 20px auto;
      }
@@ -283,12 +305,7 @@ main > section{
           grid-template-columns: repeat(2, 1fr);
           gap: 50px;
           justify-items: center; 
-     }
-
-
-
-
-           
+     }         
      .featured-architect img{
           max-width: 100%;
      }
@@ -297,18 +314,5 @@ main > section{
      margin-top: 20px;
      margin-left: 20px;
 }
-
-     
-     
-     
-     
+    
 }
-
-
-
-     
-
-
-
-
-     
