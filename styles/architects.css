@@ -8,6 +8,12 @@
   font-style: normal;
 }
 
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
 /* shared styles */
 .display-flex{
      display: flex;
@@ -273,22 +279,10 @@ main > section{
 
 .footer-container{
      
-     display: inline;
-
-     
-
-     
-     
-
+     padding: 10px 10px;
+     margin: 50px 0px;
 }
-     
-   
-
 }
-
-
-
- 
 /* medium size device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
